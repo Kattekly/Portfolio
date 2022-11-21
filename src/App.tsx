@@ -2,13 +2,15 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Header from "./Header/Header";
+import Main from "./Main/Main";
 
 function App() {
-  return (
-    <div>
-      <Header/>
-    </div>
-  );
+    return (
+        <div>
+            <Header/>
+            <Main/>
+        </div>
+    );
 }
 
 export default App;
