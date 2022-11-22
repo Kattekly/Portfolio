@@ -8,10 +8,11 @@ const Skills = () => {
         <div className={s.skillsBlock}>
             <div className={`${styleContainer.container} ${s.skillsContainer}`}>
                 <h2 className={s.title}>Skills</h2>
-                <div className={s.skills}></div>
-                <Skill title={'JS'} description={"Описание скилаб ла-ла-ла"}/>
-                <Skill title={'CSS'} description={"Описание скилаб ла-ла-ла"}/>
-                <Skill title={'React'} description={"Описание скилаб ла-ла-ла"}/>
+                <div className={s.skills}>
+                <Skill title={'JS'} description={"Описание скила ла-ла-ла"}/>
+                <Skill title={'CSS'} description={"Еще одно описание скила ла-ла-ла"}/>
+                <Skill title={'React'} description={"И еще одно описание скила ла-ла-ла"}/>
+            </div>
             </div>
         </div>
     );
