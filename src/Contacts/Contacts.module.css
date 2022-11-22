@@ -1,0 +1,27 @@
+.contactBlock {
+    height: 100vh;
+    background-color: #d5d376;
+}
+
+.contactContainer {
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+}
+
+.form {
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 50%;
+}
+
+.input {
+    height: 20%;
+}
+
+.text {
+    height: 60%;
+}
