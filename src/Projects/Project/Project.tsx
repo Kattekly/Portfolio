@@ -10,11 +10,10 @@ const Project = (props: ProjectPropsType) => {
     return (
         <div className={s.project}>
             <div className={s.icon}>Картинка</div>
-            <button>Смотреть</button>
-            <div className={s.elements}>
+
                 <h3 className={s.title}>{props.title}</h3>
                 <span className={s.description}>{props.description}</span>
-            </div>
+
         </div>
     );
 };
