@@ -9,7 +9,7 @@ const Projects = () => {
             <div className={`${styleContainer.container} ${s.projectContainer}`}>
                 <h2 className={s.title}>My projects</h2>
                 <div className={s.projects}>
-                    <Project title={"1 проект"} description={"Описание 1"}/>
+                    <Project title={"1 проект"} description={"Описание 1 bvdcvbjsdbkjsncklsmxkldsnk nbdjsbchsdcbh"}/>
                     <Project title={"2 проект"} description={"Описание 2"}/>
                 </div>
             </div>

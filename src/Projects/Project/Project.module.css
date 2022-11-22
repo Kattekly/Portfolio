@@ -3,8 +3,6 @@
     background-color: orange;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
 }
 
 .icon {
@@ -12,6 +10,15 @@
     width: 400px;
     background-color: antiquewhite;
 }
-.textElement {
 
+.elements {
+    margin: 30px;
+}
+
+.title {
+    background-color: darkgrey;
+}
+
+.description {
+    background-color: antiquewhite;
 }
