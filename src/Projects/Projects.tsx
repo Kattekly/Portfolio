@@ -10,7 +10,7 @@ const Projects = () => {
                 <h2 className={s.title}>My projects</h2>
                 <div className={s.projects}>
                     <Project title={"1 проект"} description={"Описание 1 bvdcvbjsdbkjsncklsmxkldsnk nbdjsbchsdcbh"}/>
-                    <Project title={"2 проект"} description={"Описание 2"}/>
+                    <Project title={"2 проект"} description={"Описание  ghsvchsdbvchjsbcjshncjnskjdcnjdsbncjbdchj"}/>
                 </div>
             </div>
         </div>
