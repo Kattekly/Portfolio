@@ -8,4 +8,5 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    word-break: break-word;
 }
