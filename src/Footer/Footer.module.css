@@ -1,5 +1,5 @@
 .footerBlock {
-    height: 50vh;
+    padding: 50px 0;
     background-color: burlywood;
 }
 
@@ -8,13 +8,15 @@
     flex-direction: column;
     justify-content: flex-start;
     flex-wrap: nowrap;
+
 }
 
 .allIcon {
     border: 1px solid;
-    width: 40%;
+    width: 280px;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 
 .icon {

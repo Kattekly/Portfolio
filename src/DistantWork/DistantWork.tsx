@@ -7,7 +7,7 @@ const DistantWork = () => {
         <div className={s.block}>
         <div className={`${styleContainer.container} ${s.workContainer}`}>
             <h2>Рассматриваю только удаленную работу</h2>
-            <button>Нанять меня</button>
+            <button className={s.button}>Нанять меня</button>
         </div>
         </div>
     );
