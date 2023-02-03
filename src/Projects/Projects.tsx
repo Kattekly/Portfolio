@@ -7,7 +7,9 @@ const Projects = () => {
     return (
         <div className={s.projectBlock}>
             <div className={`${styleContainer.container} ${s.projectContainer}`}>
-                <h2 className={s.title}>My projects</h2>
+                <div className={s.title}>
+                    <h2>My projects</h2>
+                </div>
                 <div className={s.projects}>
                     <Project title={"1 проект"} description={"Описание 1 bvdcvbjsdbkjsncklsmxkldsnk nbdjsbchsdcbh"}/>
                     <Project title={"2 проект"} description={"Описание  ghsvchsdbvchjsbcjshncjnskjdc njdsbncjbdchj"}/>

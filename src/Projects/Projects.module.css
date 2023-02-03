@@ -1,6 +1,6 @@
 .projectBlock {
     min-height: 100vh;
-    background-color: #bc9ed9;
+    background-color: #1f1f20;
 }
 
 .projectContainer {
@@ -19,7 +19,20 @@
 }
 
 .title {
-    background-color: darkgrey;
+    /*background-color: darkgrey;*/
+    margin: 0 0 30px;
+
+}
+
+.title h2 {
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 5px;
 }
 
 @media screen and (max-width: 1004px) {
