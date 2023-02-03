@@ -8,7 +8,7 @@ const Projects = () => {
     return (
         <div className={s.projectBlock}>
             <div className={`${styleContainer.container} ${s.projectContainer}`}>
-                <Title text={"Projects"}/>
+                <Title text={"Проекты"}/>
                 <div className={s.projects}>
                     <Project title={"1 проект"} description={"Описание 1 bvdcvbjsdbkjsncklsmxkldsnk nbdjsbchsdcbh"}/>
                     <Project title={"2 проект"} description={"Описание  ghsvchsdbvchjsbcjshncjnskjdc njdsbncjbdchj"}/>
