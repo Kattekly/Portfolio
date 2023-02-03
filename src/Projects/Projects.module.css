@@ -21,3 +21,9 @@
 .title {
     background-color: darkgrey;
 }
+
+@media screen and (max-width: 1004px) {
+    .projects {
+        justify-content: center
+    }
+}
