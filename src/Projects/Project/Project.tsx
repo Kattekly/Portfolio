@@ -11,7 +11,7 @@ const Project = (props: ProjectPropsType) => {
     return (
         <div className={s.project}>
             <div className={s.imgContainer} style={props.style}>
-                <button>Посмотреть</button>
+                <button className={s.button}>Посмотреть</button>
             </div>
             <div className={s.projectInfo}>
                 <h3 className={s.title}>{props.title}</h3>

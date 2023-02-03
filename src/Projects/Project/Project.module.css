@@ -2,7 +2,6 @@
     border: 1px solid;
     max-width: 400px;
     width: 100%;
-    background-color: orange;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -14,7 +13,7 @@
 }
 
 .title {
-   /* background-color: darkgrey;*/
+    /* background-color: darkgrey;*/
     word-break: break-word;
     font-size: 30px;
     letter-spacing: 1px;
@@ -43,4 +42,23 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    position: relative;
+}
+
+.imgContainer::before {
+    position: absolute;
+    content: '';
+    background-color: black;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.4;
+}
+
+.button {
+    background-color: white;
+    position: relative;
+    padding: 10px 20px;
+    z-index: 1;
 }
