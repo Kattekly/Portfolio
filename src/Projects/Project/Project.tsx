@@ -4,12 +4,13 @@ import s from './Project.module.css'
 type ProjectPropsType = {
     title: string
     description: string
+    style: {}
 }
 
 const Project = (props: ProjectPropsType) => {
     return (
         <div className={s.project}>
-            <div className={s.imgContainer}>
+            <div className={s.imgContainer} style={props.style}>
                 <button>Посмотреть</button>
             </div>
             <div className={s.projectInfo}>
