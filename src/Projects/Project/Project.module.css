@@ -8,10 +8,15 @@
     justify-content: flex-start;
 }
 
+.projectInfo {
+    padding: 25px 20px;
+    background: #252527
+}
+
 .title {
-    background-color: darkgrey;
+   /* background-color: darkgrey;*/
     word-break: break-word;
-    font-size: 16px;
+    font-size: 30px;
     letter-spacing: 1px;
     margin: 0 0 5px;
     line-height: 1.2;
@@ -19,13 +24,14 @@
 }
 
 .description {
-    background-color: antiquewhite;
+    /*background-color: antiquewhite;*/
     margin-top: 0;
     word-break: break-word;
     font-family: 'Sofia Sans Extra Condensed', sans-serif;
     line-height: 1.8;
     font-weight: 400;
     font-size: 23px;
+    color: #fff;
 }
 
 .imgContainer {
