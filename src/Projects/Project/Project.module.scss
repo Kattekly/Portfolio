@@ -47,27 +47,14 @@
     background: $bgSecondColor;
 
     .title {
-      /* background-color: darkgrey;*/
+      @include text($titleFontFamily, 30px, 1.2);
       word-break: break-word;
-
-      font-size: 30px;
-      line-height: 1.2;
-      color: $textColor;
-
       letter-spacing: 1px;
       margin: 0 0 5px;
     }
 
     .description {
-      /*background-color: antiquewhite;*/
-
-
-      @include text ($fontFamily, 23px, 1.8);
-
-     /* font-family: 'Sofia Sans Extra Condensed', sans-serif;
-      line-height: 1.8;
-      font-size: 23px;
-      color: $textColor;*/
+      @include text($textFontFamily, 23px, 1.8);
       margin-top: 0;
       word-break: break-word;
       font-weight: 400;
