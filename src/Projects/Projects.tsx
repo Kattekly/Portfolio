@@ -28,9 +28,9 @@ const Projects = () => {
                     <Project style={todo} title={"Todolist"}
                              description={"Описание  ghsvchsdbvchjsbcjshncjnskjdc njdsbncjbdchj njnjbvgvcfcf bhbbhhbhb sj"}/>
                     <Project style={social} title={"Social Network"}
-                             description={"Описание 1 bvdcvbjsdbkjsncklsmxkldsnk nbdjsbchsdcbh bhbhbhb njnjnjn bhbhb njnjnjn gggg"}/>
+                             description={"Описание 1 bvdcvbjsdbkjsncklsmxkldsnk nbdjsbchsdcbh bhbhbhb njnjnjn bhbhb njn"}/>
                     <Project style={cards} title={"Cards"}
-                             description={"Описание  ghsvchsdbvchjsbcjshncjnskjdc njdsbncjbdchj njnjbvgvcfcf bhbbhhbhb sj bhbhbh"}/>
+                             description={"Описание  ghsvchsdbvchjsbcjshncjnskjdc njdsbncjbdchj njnjbvgvcfcf bhbbhhbhb "}/>
                 </div>
             </div>
         </div>
