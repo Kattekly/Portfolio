@@ -1,25 +1,21 @@
 @import "../Common/Styles/Sass/variables";
 
-.projectBlock {
-  min-height: 100vh;
+.projectsBlock {
+  height: 100%;
   background-color: $bgColor;
+  color: $primaryColor;
+  font-family: $titleFontFamily;
 
-  .projectContainer {
-    align-items: center;
+  .projectsContainer {
     flex-direction: column;
     justify-content: flex-start;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 
     .projects {
-      border: 1px solid;
-      width: 100%;
       display: flex;
-      justify-content: space-between;
+      width: 100%;
       flex-wrap: wrap;
-      margin-top: 30px;
-      @media screen and (max-width: 1004px) {
-        justify-content: center
-      }
+      justify-content: space-around;
     }
   }
 }

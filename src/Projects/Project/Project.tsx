@@ -1,24 +1,41 @@
 import React from 'react';
 import s from './Project.module.scss'
+import {Button} from "../../Common/Components/Button/Button";
 
-type ProjectPropsType = {
+type WorkPropsType = {
     title: string
     description: string
-    style: {}
+    img: string
+    siteLink: string
+    codeLink: string
 }
 
-const Project = (props: ProjectPropsType) => {
+export const Project = ({title, description, img, siteLink, codeLink}: WorkPropsType) => {
+    const backgroundImage = {
+        backgroundImage: `url(${img})`
+    }
     return (
-        <div className={s.project}>
-            <div className={s.imgContainer} style={props.style}>
-                <button className={s.button}>Посмотреть</button>
+        <>
+            <div className={s.project}>
+                <div className={s.projectImage} style={backgroundImage}>
+                    <Button title={'Site'} onClick={() => {
+                        window.location.href = `${siteLink}`
+                    }}>
+                        projects
+                    </Button>
+                    <Button title={'Code'} onClick={() => {
+                        window.location.href = `${codeLink}`
+                    }}>
+                        projects
+                    </Button>
+                </div>
+                <div className={s.textBlock}>
+                    <h3>{title}</h3>
+                    <div className={s.description}>
+                        {description}
+                    </div>
+                </div>
             </div>
-            <div className={s.projectInfo}>
-                <h3 className={s.title}>{props.title}</h3>
-                <span className={s.description}>{props.description}</span>
-            </div>
-        </div>
-    );
-};
-
-export default Project;
+        </>
+    )
+}
