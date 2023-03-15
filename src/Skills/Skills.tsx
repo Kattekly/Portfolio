@@ -17,18 +17,18 @@ const skills = [
         img: js
     },
     {
-        title: 'TYPESCRIPT',
-        description: 'Web design is a similar process of creation, with the intention intention of the pre presenting...',
+        title: 'TypeScript',
+        description: 'Data types, basic syntax, functions, promises, scope, event loop, async/await',
         img: ts
     },
     {
-        title: 'REACT',
+        title: 'React',
         description: 'Web design is a similar process of creation, with the intention intention of the pre presenting...',
         img: react
     },
     {
         title: 'HTML',
-        description: 'Web design is a similar process of creation, with the intention intention of the pre presenting...',
+        description: 'Fundamentals HTML tags, form and validation, semantic HTML',
         img: html
     },
     {
@@ -37,7 +37,22 @@ const skills = [
         img: css
     },
     {
-        title: 'GIT',
+        title: 'Git',
+        description: 'Web design is a similar process of creation, with the intention intention of the pre presenting...',
+        img: git
+    },
+    {
+        title: 'Redax',
+        description: 'Web design is a similar process of creation, with the intention intention of the pre presenting...',
+        img: git
+    },
+    {
+        title: 'Rest API',
+        description: 'Web design is a similar process of creation, with the intention intention of the pre presenting...',
+        img: git
+    },
+    {
+        title: 'Testing and Debugging',
         description: 'Web design is a similar process of creation, with the intention intention of the pre presenting...',
         img: git
     },
