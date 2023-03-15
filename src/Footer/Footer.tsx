@@ -3,6 +3,7 @@ import s from './Footer.module.scss'
 import styleContainer from "../Common/Styles/Container.module.css";
 import Title from "../Common/Components/Title/Title";
 import vk from "../Assets/Images/icons8-vk-circled-96.png"
+import telegram from "../Assets/Images/icons8-telegram-app-96.png"
 
 const Footer = () => {
     return (
@@ -12,8 +13,8 @@ const Footer = () => {
             <div className={s.container}>
                 <Title title={"My name"}/>
                 <div className={s.iconsContainer}>
-                    <a href="https://vk.com/kattekly"><img src={vk} alt="VK"/></a>
-                    <a href=""><img src={''} alt="facebook"/></a>
+                    <a href="https://vk.com/kattekly"><img src={vk} className={s.pictures} alt="VK"/></a>
+                    <a href="https://t.me/K_t_r_n_k"><img src={telegram} alt="telegram"/></a>
                     <a href=""><img src={''} alt="instagram"/></a>
                     <a href=""><img src={''} alt="linkedin"/></a>
                 </div>

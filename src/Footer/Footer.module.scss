@@ -5,7 +5,7 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  background-color: black;
+  background-color: $bgSecondColor;
   position: relative;
   z-index: 1;
   padding-bottom: 10px;
@@ -32,7 +32,6 @@
         height: 70px;
         width: 70px;
       }
-
       img:hover {
         transform: scale(1.1);
       }
@@ -56,6 +55,7 @@
     }
   }
 }
+
 
 /*.footerBlock {
     padding: 50px 0;
