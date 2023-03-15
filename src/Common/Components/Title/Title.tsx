@@ -2,13 +2,13 @@ import React from 'react';
 import s from './Title.module.scss'
 
 type TitleType = {
-    text: string
+    title: string
 }
 
-const Title: React.FC<TitleType> = ({text}) => {
+const Title: React.FC<TitleType> = ({title}) => {
     return (
         <div className={s.title}>
-            <h2>{text}</h2>
+            <h2>{title}</h2>
         </div>
     );
 };

@@ -7,7 +7,7 @@ const Contacts = () => {
     return (
         <div className={s.contactBlock}>
             <div className={`${styleContainer.container} ${s.contactContainer}`}>
-                <Title text={"Contacts"}/>
+                <Title title={"Contacts"}/>
                 <form className={s.form}>
                     <input placeholder={'name'} className={s.input}/>
                     <input placeholder={'email'} className={s.input}/>

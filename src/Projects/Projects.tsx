@@ -23,7 +23,7 @@ const Projects = () => {
     return (
         <div className={s.projectBlock}>
             <div className={`${styleContainer.container} ${s.projectContainer}`}>
-                <Title text={"Projects"}/>
+                <Title title={"Projects"}/>
                 <div className={s.projects}>
                     <Project style={todo} title={"Todolist"}
                              description={"Описание  ghsvchsdbvchjsbcjshncjnskjdc njdsbncjbdchj njnjbvgvcfcf bhbbhhbhb sj"}/>

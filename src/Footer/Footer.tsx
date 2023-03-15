@@ -7,7 +7,7 @@ const Footer = () => {
     return (
         <div className={s.footerBlock}>
             <div className={`${styleContainer.container} ${s.footerContainer}`}>
-                <Title text={"My name"}/>
+                <Title title={"My name"}/>
                 <div className={s.allIcon}>
                     <div className={s.icon}></div>
                     <div className={s.icon}></div>
