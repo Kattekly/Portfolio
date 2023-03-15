@@ -1,0 +1,100 @@
+@import "../Common/Styles/Sass/variables";
+
+.contactsBlock {
+    display: flex;
+    background-color: $bgColor;
+    color: $primaryColor;
+
+    .contactsContainer {
+        //width: 100%;
+        //display: flex;
+        //flex-direction: column;
+        //justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+
+        .formBlock {
+            width: 100%;
+            display: flex;
+
+            .form {
+                border: 1px solid;
+                display: flex;
+                width: 100%;
+                flex-direction: column;
+                align-items: center;
+                margin-top: 30px;
+
+                & input, textarea {
+                    width: 50%;
+                    color: #fdfdfd;
+                    display: block;
+                    background: none;
+                    padding: .5rem .8rem .5rem 0.5rem;
+                    margin-bottom: 20px;
+                    border: 1px solid rgba(255, 255, 255, .1);
+                    font-size: 16px;
+
+
+                    @media only screen and (max-width: 680px) and (min-width: 0px) {
+                        width: 75%;
+                    }
+                }
+
+                & textarea {
+                    height: 15vh;
+                }
+
+                .errorField {
+                    color: $errorColor;
+                    width: 50%;
+                    font-size: 12px;
+                    padding-bottom: 7px;
+                    height: 10px;
+                    @media only screen and (max-width: 680px) and (min-width: 0px) {
+                        width: 80%;
+                    }
+                }
+
+                .error {
+                    border: 1px $errorColor solid;
+                }
+
+            }
+        }
+    }
+}
+
+/*
+.contactBlock {
+    height: 100vh;
+    background-color: #d5d376;
+}
+
+.contactContainer {
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+}
+
+.form {
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    margin-bottom: 100px;
+    max-width: 500px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.input {
+    height: 20%;
+}
+
+.text {
+    height: 60%;
+}*/
