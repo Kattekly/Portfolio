@@ -8,6 +8,10 @@ import ts from '../Assets/Images/typescript.png'
 import html from '../Assets/Images/html.png'
 import css from '../Assets/Images/css.png'
 import git from '../Assets/Images/Git.png'
+import redux from '../Assets/Images/redux.png'
+import restApi from '../Assets/Images/restApi.png'
+import bug from '../Assets/Images/bug.png'
+import materialUi from '../Assets/Images/materialUi.png'
 
 const skills = [
     {
@@ -36,19 +40,24 @@ const skills = [
         img: git
     },
     {
-        title: 'Redax',
-        description: 'Web design is a similar process of creation, with the intention intention of the pre presenting...',
-        img: git
+        title: 'Redux',
+        description: 'Actions & thunks, reducer, context API, store, flux',
+        img: redux
     },
     {
         title: 'Rest API',
-        description: 'Web design is a similar process of creation, with the intention intention of the pre presenting...',
-        img: git
+        description: 'HTTPS requests, URI parameters, Query parameters, status codes, axios library',
+        img: restApi
     },
     {
         title: 'Testing and Debugging',
-        description: 'Web design is a similar process of creation, with the intention intention of the pre presenting...',
-        img: git
+        description: 'TDD, Story book, Unit tests, Snapshot',
+        img: bug
+    },
+    {
+        title: 'Material Ui',
+        description: 'Material-UI components, Icons, Customizable themes',
+        img: materialUi
     },
 ]
 
