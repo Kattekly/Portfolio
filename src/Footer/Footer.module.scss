@@ -9,6 +9,7 @@
   position: relative;
   z-index: 1;
   padding-bottom: 10px;
+  flex-wrap: wrap;
 
   .container {
     display: flex;
@@ -26,6 +27,7 @@
       width: 60%;
       flex-direction: row;
       justify-content: center;
+      margin-top: 30px;
 
       img {
         transition: 0.3s;

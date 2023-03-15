@@ -11,7 +11,7 @@ const Footer = () => {
     return (
         <div className={s.footer}>
             <div className={s.container}>
-                <Title title={"Ekaterina Kozachenko"}/>
+                <Title title={'Ekaterina Kozachenko'}/>
                 <div className={s.iconsContainer}>
                     <a href="https://vk.com/kattekly"><img src={vk} className={s.pictures} alt="VK"/></a>
                     <a href="https://t.me/K_t_r_n_k"><img src={telegram} alt="telegram"/></a>
