@@ -4,7 +4,6 @@ import styleContainer from "../Common/Styles/Container.module.css";
 import Skill from "./Skill/Skill";
 import Title from "../Common/Components/Title/Title";
 import react from '../Assets/Images/react_logo.png'
-import js from '../Assets/Images/JS.png'
 import ts from '../Assets/Images/typescript.png'
 import html from '../Assets/Images/html.png'
 import css from '../Assets/Images/css.png'
@@ -12,19 +11,14 @@ import git from '../Assets/Images/Git.png'
 
 const skills = [
     {
-        title: 'JavaScript',
-        description: 'Web design is a similar process of creation, with the intention intention of the pre presenting...',
-        img: js
+        title: 'React',
+        description: 'Class and functional components, state & props, components life-cycle, routing, conditional rendering, HOC',
+        img: react
     },
     {
-        title: 'TypeScript',
+        title: 'TypeScript/JavaScript',
         description: 'Data types, basic syntax, functions, promises, scope, event loop, async/await',
         img: ts
-    },
-    {
-        title: 'React',
-        description: 'Web design is a similar process of creation, with the intention intention of the pre presenting...',
-        img: react
     },
     {
         title: 'HTML',
@@ -33,12 +27,12 @@ const skills = [
     },
     {
         title: 'CSS',
-        description: 'Web design is a similar process of creation, with the intention intention of the pre presenting...',
+        description: 'Positioning, box modal, selectors, flexbox, media queries, transformation & animation',
         img: css
     },
     {
         title: 'Git',
-        description: 'Web design is a similar process of creation, with the intention intention of the pre presenting...',
+        description: 'Creating new repositories, push- and pull-request, merge, repos cloning',
         img: git
     },
     {
