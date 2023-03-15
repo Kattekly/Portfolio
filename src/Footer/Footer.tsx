@@ -13,9 +13,9 @@ const Footer = () => {
                 <Title title={"My name"}/>
                 <div className={s.iconsContainer}>
                     <a href="https://vk.com/kattekly"><img src={vk} alt="VK"/></a>
-                    <a href="https://www.facebook.com/profile.php?id=100009416962471"><img src={''} alt="facebook"/></a>
-                    <a href="https://instagram.com/voitov_pavel?igshid=ZDdkNTZiNTM="><img src={''} alt="instagram"/></a>
-                    <a href="https://www.linkedin.com/in/pavel-voitov-200125100/"><img src={''} alt="linkedin"/></a>
+                    <a href=""><img src={''} alt="facebook"/></a>
+                    <a href=""><img src={''} alt="instagram"/></a>
+                    <a href=""><img src={''} alt="linkedin"/></a>
                 </div>
                 <div className={s.span}>&copy; 2023 Все права защищены</div>
             </div>
