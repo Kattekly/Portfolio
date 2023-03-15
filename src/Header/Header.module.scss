@@ -1,0 +1,41 @@
+/*
+.header {
+    height: 80px;
+    background-color: plum;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}*/
+
+.visible {
+    top: 0;
+    transition: top 0.5s ease-out;
+}
+
+.hidden {
+    top: -200px;
+    transition: top 0.5s ease-out;
+}
+
+.headerBlock {
+    position: fixed;
+    width: 100%;
+    background-color: #1f1f20;
+    z-index: 2;
+
+.header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 80%;
+
+.container {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    width: 100%;
+}
+}
+}
