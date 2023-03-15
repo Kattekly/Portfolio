@@ -6,10 +6,10 @@
     color: $primaryColor;
 
     .contactsContainer {
-        //width: 100%;
-        //display: flex;
-        //flex-direction: column;
-        //justify-content: center;
+      /*  width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;*/
         align-items: center;
         flex-direction: column;
         justify-content: flex-start;
@@ -20,6 +20,11 @@
             display: flex;
 
             .form {
+                /*display: flex;
+                width: 100%;
+                flex-direction: column;
+                align-items: center;
+                margin-bottom: 20px;*/
                 border: 1px solid;
                 display: flex;
                 width: 100%;
@@ -51,7 +56,7 @@
                     color: $errorColor;
                     width: 50%;
                     font-size: 12px;
-                    padding-bottom: 7px;
+                    padding-bottom: 20px;
                     height: 10px;
                     @media only screen and (max-width: 680px) and (min-width: 0px) {
                         width: 80%;

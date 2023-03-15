@@ -6,6 +6,8 @@ import {useFormik} from "formik";
 import axios from "axios";
 import {Button} from "../Common/Components/Button/Button";
 import {Modal} from "../Common/Components/Modal/Modal";
+import input = Simulate.input;
+import {Simulate} from "react-dom/test-utils";
 
 type FormikErrorType = {
     name?: string
