@@ -1,11 +1,4 @@
-/*
-.header {
-    height: 80px;
-    background-color: plum;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}*/
+@import "../Common/Styles/Sass/variables";
 
 .visible {
     top: 0;
@@ -20,7 +13,7 @@
 .headerBlock {
     position: fixed;
     width: 100%;
-    background-color: #1f1f20;
+    background-color: #171414;
     z-index: 2;
 
 .header {

@@ -46,11 +46,11 @@ export const ContactForm = () => {
 
         onSubmit: values => {
             setDisableButton(true)
-            document.body.style.overflow = 'hidden';
-            axios.post('https://portfolio-gmail-smtp-topaz.vercel.app/sendMessage', values)
-                .then(() => {
-                    setIsOpenModal(true)
-                })
+            // document.body.style.overflow = 'hidden';
+            // axios.post('https://portfolio-gmail-smtp-topaz.vercel.app/sendMessage', values)
+            //     .then(() => {
+            //         setIsOpenModal(true)
+            //     })
             formik.resetForm()
             setTimeout(() => {
                 setIsOpenModal(false)
