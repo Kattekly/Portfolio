@@ -30,7 +30,13 @@ const works = [
         siteLink: 'https://Kattekly.github.io/Friday-project',
         codeLink: 'https://github.com/Kattekly/Friday-project'
     },
-
+    {
+        title: "Counter",
+        description: "Technology stack: react, redux, react-redux, redux-thunk, react-router-dom, typescript",
+        img: cardsImage,
+        siteLink: '',
+        codeLink: ''
+    },
 ]
 
 export const Projects = () => {

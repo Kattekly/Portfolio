@@ -1,0 +1,45 @@
+/*@import "../Common/Styles/Sass/variables";
+.conditions {
+    display: flex;
+    position: relative;
+    z-index: 1;
+    background-color: $bgSecondColor;
+    color: #00d3bc;
+.conditionsContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+.text {
+    text-transform: uppercase;
+    font-size: 25px;
+    text-align: center;
+    margin: 30px;
+}
+}
+}*/
+@import "../Common/Styles/Sass/variables";
+
+.block {
+    height: 50vh;
+    background-color: $bgSecondColor;
+    color: ghostwhite;
+}
+
+.workContainer {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    word-break: break-word;
+    font-family: $textFontFamily;
+    font-weight: 400;
+}
+
+.button {
+    margin: 30px;
+    background-color: $primaryColor;
+}

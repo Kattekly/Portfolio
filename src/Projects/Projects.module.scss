@@ -16,6 +16,32 @@
       width: 100%;
       flex-wrap: wrap;
       justify-content: space-around;
+      margin-top: 30px;
     }
   }
 }
+
+/*
+.projectBlock {
+  min-height: 100vh;
+  background-color: $bgColor;
+
+  .projectContainer {
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+
+    .projects {
+      border: 1px solid;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-top: 30px;
+      @media screen and (max-width: 1004px) {
+        justify-content: center
+      }
+    }
+  }
+}*/

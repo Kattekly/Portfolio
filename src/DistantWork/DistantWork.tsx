@@ -1,16 +1,18 @@
 import React from 'react';
 import styleContainer from "../Common/Styles/Container.module.css";
-import s from "./DistantWork.module.css";
+import s from "./DistantWork.module.scss";
+import {Button} from "../Common/Components/Button/Button";
+import {animateScroll} from "react-scroll";
 
-const DistantWork = () => {
+export const DistantWork = () => {
     return (
         <div className={s.block}>
             <div className={`${styleContainer.container} ${s.workContainer}`}>
-                <h2>Рассматриваю только удаленную работу</h2>
-                <button className={s.button}>Нанять меня</button>
+                <h2>I AM AVAILABLE FOR FREELANCE AND REMOTE WORK</h2>
+                <Button title={'Employ'} onClick={() => animateScroll.scrollToBottom()}>
+                    default
+                </Button>
             </div>
         </div>
     );
 };
-
-export default DistantWork;

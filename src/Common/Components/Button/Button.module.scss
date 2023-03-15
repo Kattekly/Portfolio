@@ -2,23 +2,24 @@
 @import "../../../Common/Styles/Sass/Mixins";
 
 .default {
+  border-radius: 10px;
   @include button(
                   200px, 50px, 30px,
-                  20px, $textColor, $bgSecondColor,
-                  20px, bolder, 1px solid #00d2bb,
+                  20px, #e7e6e6, $bgSecondColor,
+                  20px, bolder, 1px solid #142c49,
                   5px solid transparent, .2s ease-in-out, relative,
                   1);
 }
 
 button:hover {
-  background-color: #077065;
+  background-color: $primaryColor;
   color: #fdfdfd;
-  outline: 1px solid #00d2bb;
+  outline: 1px solid #142c49;
   outline-offset: 3px;
 
   &:active {
     color: #fdfdfd;
-    background-color: #179119;
+    background-color: #4e93e6;
     width: 90px;
     transition: 1s ease;
   }
@@ -42,10 +43,11 @@ button:disabled {
 }
 
 .projects {
+  border-radius: 10px;
   @include button(
                   40%, 15%, 30px,
-                  20px, #525655, #00d2bb,
-                  20px, normal, 1px solid #00d2bb,
+                  20px, #525655, ghostwhite,
+                  20px, normal, 1px solid #142c49,
                   5px solid transparent, .1s ease-in-out, relative,
                   1);
   opacity: 0.6;
