@@ -5,7 +5,6 @@ import Title from "../Common/Components/Title/Title";
 import {useFormik} from "formik";
 import axios from "axios";
 import {Button} from "../Common/Components/Button/Button";
-import {Modal} from "../Common/Components/Modal/Modal";
 import input = Simulate.input;
 import {Simulate} from "react-dom/test-utils";
 
@@ -69,7 +68,6 @@ export const ContactForm = () => {
     return (
         <div id={'contactForm'} className={s.contactsBlock}>
             <div className={`${styleContainer.container} ${s.contactsContainer}`}>
-                {isOpenModal ? <Modal handleClose={handleClose}/> : ''}
                 <Title title={'contacts'}/>
                 <div className={s.formBlock}>
                     <form className={s.form} onSubmit={formik.handleSubmit}>
