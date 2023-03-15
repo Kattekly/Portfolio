@@ -13,22 +13,22 @@ const works = [
         title: "Todolist",
         description: "Technology stack: react, redux-toolkit, react-redux, redux-thunk, react-router-dom, react-hook-form, typescript, dayjs, axios, react-bootstrap, react-icons",
         img: todoImage,
-        siteLink: 'https://pavelvoitov.github.io/todolist-ts-01/',
-        codeLink: 'https://github.com/PavelVoitov/todolist-ts-01.git'
+        siteLink: '',
+        codeLink: ''
     },
     {
         title: "Social Network",
         description: "Technology stack: react, redux, react-redux, redux-thunk, typescript, react-router-dom, axios, redux-form, reselect, material-UI",
         img: socialImage,
-        siteLink: 'https://pavelvoitov.github.io/8-bit/',
-        codeLink: 'https://github.com/PavelVoitov/8-bit.git'
+        siteLink: 'https://Kattekly.github.io/samurai-way-main',
+        codeLink: 'https://github.com/Kattekly/samurai-way-main'
     },
     {
         title: "Cards",
         description: "Technology stack: react, redux, react-redux, redux-thunk, react-router-dom, typescript, material-UI",
         img: cardsImage,
-        siteLink: 'https://pavelvoitov.github.io/counter/',
-        codeLink: 'https://github.com/PavelVoitov/counter.git'
+        siteLink: 'https://Kattekly.github.io/Friday-project',
+        codeLink: 'https://github.com/Kattekly/Friday-project'
     },
 
 ]
