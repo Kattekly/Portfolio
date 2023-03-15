@@ -6,6 +6,7 @@ import Title from '../Common/Components/Title/Title';
 import todoImage from './../Assets/Images/Todo.jpg'
 import socialImage from './../Assets/Images/Social.jpg'
 import cardsImage from './../Assets/Images/Cards.jpg'
+import counterImage from './../Assets/Images/2023-03-15_19-37-39.png'
 
 
 const works = [
@@ -30,13 +31,13 @@ const works = [
         siteLink: 'https://Kattekly.github.io/Friday-project',
         codeLink: 'https://github.com/Kattekly/Friday-project'
     },
-    {
+   /* {
         title: "Counter",
         description: "Technology stack: react, redux, react-redux, redux-thunk, react-router-dom, typescript",
-        img: cardsImage,
+        img: counterImage,
         siteLink: '',
         codeLink: ''
-    },
+    },*/
 ]
 
 export const Projects = () => {
