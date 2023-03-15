@@ -32,6 +32,11 @@
         height: 70px;
         width: 70px;
       }
+
+      .pic {
+        height: 60px;
+        width: 60px;
+      }
       img:hover {
         transform: scale(1.1);
       }
@@ -51,7 +56,7 @@
 
     .span {
       margin: 30px;
-      color: $primaryColor;
+      color: gray;
     }
   }
 }
