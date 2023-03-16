@@ -10,7 +10,9 @@ export const Particle: React.FC = () => {
     const particlesInit = useCallback(async (engine: Engine) => {
         await loadFull(engine);
     }, []);
+    const particlesLoaded = useCallback(async (container: Container | undefined) => {
 
+    }, []);
     return (
         <Particles params={{
             "particles": {
@@ -107,6 +109,6 @@ export const Particle: React.FC = () => {
         }}
                    className={s.particles}
                    init={particlesInit}
-                   />
+                   loaded={particlesLoaded}/>
     )
 }

@@ -5,6 +5,8 @@
   background-color: $bgColor;
   color: $primaryColor;
   font-family: $titleFontFamily;
+  position: relative;
+  z-index: 1;
 
   .projectsContainer {
     flex-direction: column;

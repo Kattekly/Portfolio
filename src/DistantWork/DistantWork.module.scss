@@ -27,6 +27,8 @@
     height: 50vh;
     background-color: $bgSecondColor;
     color: ghostwhite;
+    position: relative;
+    z-index: 1;
 }
 
 .workContainer {

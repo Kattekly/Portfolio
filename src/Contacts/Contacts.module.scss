@@ -4,6 +4,8 @@
     display: flex;
     background-color: $bgColor;
     color: $primaryColor;
+    position: relative;
+    z-index: 1;
 
     .contactsContainer {
       /*  width: 100%;

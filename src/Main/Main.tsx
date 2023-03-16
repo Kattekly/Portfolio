@@ -11,8 +11,9 @@ const Main = () => {
 
     return (
         <div id={'main'} >
-            {/*<Particle />*/}
+          {/*  <Particle />*/}
             <div className={s.mainContainer}>
+                    <Particle />
                 <div className={styleContainer.container}>
                     <div className={s.about}>
                         <Fade cascade>
