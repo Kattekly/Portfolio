@@ -15,7 +15,7 @@ const Main = () => {
             <Particle />
             <div className={s.mainBlock}>
                 <div className={styleContainer.container}>
-                    <div className={s.text}>
+                    <div className={s.about}>
                         <Fade cascade>
                         <span>HELLO, MY NAME IS</span>
                         <h1> {'Ekaterina Kozachenko'} </h1>
