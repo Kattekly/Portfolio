@@ -4,7 +4,7 @@ import {Fade} from "react-awesome-reveal";
 import ReactTypingEffect from "react-typing-effect";
 import {Particle} from "./Particle";
 import Tilt from 'react-parallax-tilt';
-import mainPhoto from "../Assets/Images/KozachenkoE.jpg"
+import mainPhoto from "../Assets/Images/foto2.jpg"
 import styleContainer from './../Common/Styles/Container.module.css'
 
 const Main = () => {
@@ -22,7 +22,9 @@ const Main = () => {
                         <ReactTypingEffect text={'FRONTEND DEVELOPER'}/>
                         </Fade>
                     </div>
-                    <div className={s.photo}></div>
+                    <Tilt>
+                        <img src={mainPhoto} className={s.photo} alt='portfolioMainImg'/>
+                    </Tilt>
                 </div>
             </div>
            {/* <section className={`${s.mainContainer} ${styleContainer.container}`}>
