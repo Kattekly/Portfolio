@@ -16,9 +16,11 @@ const Main = () => {
             <div className={s.mainBlock}>
                 <div className={styleContainer.container}>
                     <div className={s.text}>
-                        <span>Hi There</span>
+                        <Fade cascade>
+                        <span>HELLO, MY NAME IS</span>
                         <h1> {'Ekaterina Kozachenko'} </h1>
                         <ReactTypingEffect text={'FRONTEND DEVELOPER'}/>
+                        </Fade>
                     </div>
                     <div className={s.photo}></div>
                 </div>
