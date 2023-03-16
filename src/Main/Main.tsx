@@ -4,7 +4,7 @@ import {Fade} from "react-awesome-reveal";
 import ReactTypingEffect from "react-typing-effect";
 import {Particle} from "./Particle";
 import Tilt from 'react-parallax-tilt';
-import mainPhoto from "../Assets/Images/imgonline-com-ua-Black-White-BOfYcuNO03yi.jpg"
+import mainPhoto from "../Assets/Images/foto2.jpg"
 import styleContainer from './../Common/Styles/Container.module.css'
 
 const Main = () => {
