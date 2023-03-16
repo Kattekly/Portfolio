@@ -12,7 +12,7 @@ const Main = () => {
     return (
 
         <div id={'main'} >
-            <Particle />
+            {/*<Particle />*/}
             <div className={s.mainBlock}>
                 <div className={styleContainer.container}>
                     <div className={s.about}>
