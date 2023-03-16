@@ -4,16 +4,15 @@ import {Fade} from "react-awesome-reveal";
 import ReactTypingEffect from "react-typing-effect";
 import {Particle} from "./Particle";
 import Tilt from 'react-parallax-tilt';
-import mainPhoto from "../Assets/Images/foto2.jpg"
+import mainPhoto from "../Assets/Images/imgonline-com-ua-Black-White-BOfYcuNO03yi.jpg"
 import styleContainer from './../Common/Styles/Container.module.css'
 
 const Main = () => {
 
     return (
-
         <div id={'main'} >
             {/*<Particle />*/}
-            <div className={s.mainBlock}>
+            <div className={s.mainContainer}>
                 <div className={styleContainer.container}>
                     <div className={s.about}>
                         <Fade cascade>
@@ -27,7 +26,8 @@ const Main = () => {
                     </Tilt>
                 </div>
             </div>
-           {/* <section className={`${s.mainContainer} ${styleContainer.container}`}>
+        </div>
+           /* <section className={`${s.mainContainer} ${styleContainer.container}`}>
                 <Particle/>
                 <div className={s.about}>
                     <Fade cascade>
@@ -40,8 +40,7 @@ const Main = () => {
                     <img src={mainPhoto} className={s.photo} alt='portfolioMainImg'/>
                 </Tilt>
 
-            </section>*/}
-        </div>
+            </section>*/
 
     );
 };

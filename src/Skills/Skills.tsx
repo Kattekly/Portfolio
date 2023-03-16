@@ -20,7 +20,7 @@ const skills = [
         img: react
     },
     {
-        title: 'TypeScript/JavaScript',
+        title: 'TypeScript',
         description: 'Data types, basic syntax, functions, promises, scope, event loop, async/await',
         img: ts
     },
