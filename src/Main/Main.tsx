@@ -17,8 +17,8 @@ const Main = () => {
                 <div className={styleContainer.container}>
                     <div className={s.text}>
                         <span>Hi There</span>
-                        <h1>Name</h1>
-                        <p>Frontend-разработчик</p>
+                        <h1> {'Ekaterina Kozachenko'} </h1>
+                        <ReactTypingEffect text={'FRONTEND DEVELOPER'}/>
                     </div>
                     <div className={s.photo}></div>
                 </div>
