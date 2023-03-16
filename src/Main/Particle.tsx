@@ -5,13 +5,12 @@ import {Container, Engine} from "tsparticles-engine";
 import s from './Main.module.scss'
 import Particles from "react-tsparticles";
 
+
 export const Particle: React.FC = () => {
     const particlesInit = useCallback(async (engine: Engine) => {
         await loadFull(engine);
     }, []);
-    const particlesLoaded = useCallback(async (container: Container | undefined) => {
-        await console.log(container);
-    }, []);
+
     return (
         <Particles params={{
             "particles": {
@@ -23,7 +22,7 @@ export const Particle: React.FC = () => {
                     }
                 },
                 "color": {
-                    "value": "#f9004d"
+                    "value": "#4e93e6"
                 },
                 "shape": {
                     "type": "circle",
@@ -108,6 +107,6 @@ export const Particle: React.FC = () => {
         }}
                    className={s.particles}
                    init={particlesInit}
-                   loaded={particlesLoaded}/>
+                   />
     )
 }

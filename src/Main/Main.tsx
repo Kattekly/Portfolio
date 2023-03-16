@@ -5,12 +5,25 @@ import ReactTypingEffect from "react-typing-effect";
 import {Particle} from "./Particle";
 import Tilt from 'react-parallax-tilt';
 import mainPhoto from "../Assets/Images/KozachenkoE.jpg"
+import styleContainer from './../Common/Styles/Container.module.css'
 
 const Main = () => {
 
     return (
+
         <div id={'main'} >
-            <section className={`${s.mainContainer} ${s.container}`}>
+            <Particle />
+            <div className={s.mainBlock}>
+                <div className={styleContainer.container}>
+                    <div className={s.text}>
+                        <span>Hi There</span>
+                        <h1>Name</h1>
+                        <p>Frontend-разработчик</p>
+                    </div>
+                    <div className={s.photo}></div>
+                </div>
+            </div>
+           {/* <section className={`${s.mainContainer} ${styleContainer.container}`}>
                 <Particle/>
                 <div className={s.about}>
                     <Fade cascade>
@@ -23,7 +36,7 @@ const Main = () => {
                     <img src={mainPhoto} className={s.photo} alt='portfolioMainImg'/>
                 </Tilt>
 
-            </section>
+            </section>*/}
         </div>
 
     );
