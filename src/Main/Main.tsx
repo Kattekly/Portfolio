@@ -13,7 +13,7 @@ const Main = () => {
         <div id={'main'} >
           {/*  <Particle />*/}
             <div className={s.mainContainer}>
-                    <Particle />
+                   {/* <Particle />*/}
                 <div className={styleContainer.container}>
                     <div className={s.about}>
                         <Fade cascade>
