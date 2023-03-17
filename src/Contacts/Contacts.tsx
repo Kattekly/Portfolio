@@ -68,7 +68,7 @@ export const ContactForm = () => {
     return (
         <div id={'contactForm'} className={s.contactsBlock}>
             <div className={`${styleContainer.container} ${s.contactsContainer}`}>
-                <Title title={'contacts'}/>
+                <Title title={"contacts"}/>
                 <div className={s.formBlock}>
                     <form className={s.form} onSubmit={formik.handleSubmit}>
                         <>

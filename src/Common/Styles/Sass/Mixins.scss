@@ -7,6 +7,13 @@
   color: $textColor;
 }
 
+@mixin text2($fontFamily, $fontSize, $lineHeight, $fontWeight) {
+  font-family: $fontFamily;
+  font-size: $fontSize;
+  line-height: $lineHeight;
+  font-weight: $fontWeight;
+}
+
 @mixin button ($width, $height, $marginBottom, $marginTop,
 $backgroundColor, $color, $fontSize, $fontWeight, $border, $outline,
 $transition, $position, $z-index) {
@@ -23,4 +30,23 @@ $transition, $position, $z-index) {
   transition: $transition;
   position: $position;
   z-index: $z-index;
+}
+
+@mixin container() {
+  width: 80%;
+  margin: 0 auto;
+}
+
+@mixin flex($direction, $justifyContent, $alignItems, $wrap) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justifyContent;
+  align-items: $alignItems;
+  flex-wrap: $wrap;
+}
+
+@mixin bgSettings() {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
