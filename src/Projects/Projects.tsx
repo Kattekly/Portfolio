@@ -14,8 +14,8 @@ const works = [
         title: "Todolist",
         description: "Technology stack: react, redux-toolkit, react-redux, redux-thunk, react-router-dom, react-hook-form, typescript, dayjs, axios, react-bootstrap, react-icons",
         img: todoImage,
-        siteLink: '',
-        codeLink: ''
+        siteLink: 'https://Kattekly.github.io/Todolist',
+        codeLink: 'https://github.com/Kattekly/Todolist'
     },
     {
         title: "Social Network",

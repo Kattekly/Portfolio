@@ -8,7 +8,7 @@ export const DistantWork = () => {
     return (
         <div className={s.block}>
             <div className={`${styleContainer.container} ${s.workContainer}`}>
-                <h2>I AM AVAILABLE FOR FREELANCE AND REMOTE WORK</h2>
+                <h2 className={s.text}>I AM AVAILABLE FOR FREELANCE AND REMOTE WORK</h2>
                 <Button title={'Employ'} onClick={() => animateScroll.scrollToBottom()}>
                     default
                 </Button>
