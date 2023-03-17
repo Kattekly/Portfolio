@@ -28,8 +28,8 @@ const works = [
         title: "Cards",
         description: "Technology stack: react, redux, react-redux, redux-thunk, react-router-dom, typescript, material-UI",
         img: cardsImage,
-        siteLink: 'https://Kattekly.github.io/Friday-project',
-        codeLink: 'https://github.com/Kattekly/Friday-project'
+        siteLink: 'https://Kattekly.github.io/Cards',
+        codeLink: 'https://github.com/Kattekly/Cards'
     },
    /* {
         title: "Counter",
