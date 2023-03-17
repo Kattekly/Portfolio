@@ -41,7 +41,7 @@ const skills = [
     },
     {
         title: 'Redux',
-        description: 'Actions & thunks, reducer, context API, store, flux',
+        description: 'Actions & thunks, reducer, context API, store, FLUX',
         img: redux
     },
     {
