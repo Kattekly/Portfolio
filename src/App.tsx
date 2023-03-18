@@ -7,6 +7,7 @@ import Footer from "./Footer/Footer";
 import {Skills} from "./Skills/Skills";
 import {ContactForm} from "./Contacts/Contacts";
 import {Main} from "./Main/Main";
+import {ScrollButton} from "./Common/Components/ScrollButton/ScrollButton";
 
 function App() {
     return (
@@ -18,6 +19,7 @@ function App() {
             <DistantWork/>
             <ContactForm/>
             <Footer/>
+            <ScrollButton/>
         </div>
     );
 }

@@ -1,4 +1,4 @@
-@import "../src/Common/Styles/Sass/variables";
+@import "./src/Common/Styles/Sass/variables";
 
 .top_to_btm{
   position: relative;
@@ -25,14 +25,14 @@
     cursor: pointer;
     animation: movebtn 3s ease-in-out infinite;
     transition: all 5s ease-in-out;
-    opacity: 0.7;
+    opacity: 0.8;
 
     &:hover{
       animation: none;
       background: #fff;
       color: $primaryColor;
       border: 2px solid $primaryColor;
-      opacity: 0.7;
+      opacity: 0.8;
     }
   }
 
