@@ -9,8 +9,9 @@ import styleContainer from './../Common/Styles/Container.module.css'
 
 function Main() {
     return (
-        <div className={s.mainBlock}>
+        <div id={'main'} className={s.mainBlock}>
             <div className={s.container}>
+                <Particle/>
                 <div className={s.about}>
                     <Fade cascade>
                         <span>HELLO, MY NAME IS</span>
@@ -19,9 +20,7 @@ function Main() {
                     </Fade>
                 </div>
                 <div className={s.photo}>
-                    <div className={s.image}>
-
-                    </div>
+                        <div className={s.image}></div>
                 </div>
 
             </div>

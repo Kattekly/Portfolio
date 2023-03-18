@@ -6,6 +6,7 @@
   @include flex(row, center, center, nowrap);
   background-color: $bgColor;
   padding: 100px 0;
+
   .container {
     @include container();
     @include flex(row, space-around, center, wrap);
@@ -61,27 +62,47 @@
           margin-right: auto;
         }
       }
+
       @media screen and (max-width: 1143px) {
         align-items: center;
       }
     }
+
     .photo {
       position: relative;
       z-index: 1;
-      @media screen and (max-width: 1143px){
+
+      @media screen and (max-width: 1143px) {
         margin-top: 50px;
       }
+
+      transition: 1s;
+      display: block;
+
+      &:hover {
+        transform: scale(1.2);
+        /*transform: translate(20px, 20px)*/
+      }
+
       .image {
+        position: relative;
         height: 400px;
         width: 300px;
+
+        /*   {
+            transform: translate(20px, 20px);
+          }*/
+
         @include bgSettings();
         background-image: url("../Assets/Images/foto2.jpg");
         background-position: 80% 0;
-        @media screen and (max-width: 600px){
+        @media screen and (max-width: 600px) {
           height: 360px;
           width: 260px;
           transition: .5s;
         }
+
+
         &:before {
           content: "";
           position: absolute;
@@ -91,6 +112,10 @@
           left: 15px;
           top: -15px;
           z-index: -1;
+
+          transition: 1s;
+          display: block;
+
         }
       }
     }
