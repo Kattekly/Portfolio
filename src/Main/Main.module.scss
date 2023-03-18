@@ -11,26 +11,6 @@
     @include container();
     @include flex(row, space-around, center, wrap);
 
-    //.about {
-    //  @include flex(column, flex-start, flex-start, nowrap);
-    //  color: ghostwhite;
-    //  font-family: $titleFontFamily;
-    //
-    //  h1 {
-    //
-    //    margin: 0;
-    //    background-image: linear-gradient(145deg, #4e93e6, #193f6c);
-    //    -webkit-background-clip: text;
-    //    -webkit-text-fill-color: transparent;
-    //    font-size: 70px;
-    //    line-height: 112px;
-    //
-    //  }
-    //  @media screen and (max-width: 1143px){
-    //    align-items: center;
-    //  }
-    //}
-
     .about {
       @include flex(column, flex-start, flex-start, nowrap);
       width: 90vh;
@@ -81,17 +61,12 @@
 
       &:hover {
         transform: scale(1.2);
-        /*transform: translate(20px, 20px)*/
       }
 
       .image {
         position: relative;
         height: 400px;
         width: 300px;
-
-        /*   {
-            transform: translate(20px, 20px);
-          }*/
 
         @include bgSettings();
         background-image: url("../Assets/Images/foto2.jpg");
@@ -101,7 +76,6 @@
           width: 260px;
           transition: .5s;
         }
-
 
         &:before {
           content: "";
