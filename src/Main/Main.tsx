@@ -7,11 +7,11 @@ import Tilt from 'react-parallax-tilt';
 import mainPhoto from "../Assets/Images/foto2.jpg"
 import styleContainer from './../Common/Styles/Container.module.css'
 
-function Main() {
+export const Main = () => {
     return (
         <div id={'main'} className={s.mainBlock}>
+            <Particle/>
             <div className={s.container}>
-                <Particle/>
                 <div className={s.about}>
                     <Fade cascade>
                         <span>HELLO, MY NAME IS</span>
@@ -27,30 +27,3 @@ function Main() {
         </div>
     );
 }
-
-
-// const Main = () => {
-//
-//     return (
-//         <div id={'main'} >
-//             <div className={s.mainContainer}>
-//                     <Particle />
-//                 <div className={styleContainer.container}>
-//                     <div className={s.about}>
-//                         <Fade cascade>
-//                         <span>HELLO, MY NAME IS</span>
-//                         <h1> {'Ekaterina Kozachenko'} </h1>
-//                         <ReactTypingEffect text={'FRONTEND DEVELOPER'}/>
-//                         </Fade>
-//                     </div>
-//                     <Tilt>
-//                         <img src={mainPhoto} className={s.photo} alt='portfolioMainImg'/>
-//                     </Tilt>
-//                 </div>
-//             </div>
-//         </div>
-//
-//     );
-// };
-
-export default Main;
