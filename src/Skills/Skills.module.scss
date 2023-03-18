@@ -1,45 +1,23 @@
-//.skillsBlock {
-//    min-height: 100vh;
-//    background-color: #a6c970;
-//}
-//
-//.skillsContainer {
-//    align-items: center;
-//    flex-direction: column;
-//    justify-content: flex-start;
-//}
-//
-//.skills {
-//    border: 1px solid;
-//    width: 100%;
-//    display: flex;
-//    justify-content: space-between;
-//    flex-wrap: wrap;
-//    margin-top: 30px;
-//}
-//
-//.title {
-//    background-color: darkgrey;
-//}
-
 @import "../Common/Styles/Sass/variables";
 
 .skillsBlock {
-    height: 100%;
-    background-color: $bgSecondColor;
-    color: $primaryColor;
-    position: relative;
-    z-index: 1;
-    font-family: $textFontFamily;
-    .skillsContainer {
-        flex-direction: column;
-        flex-wrap: wrap;
-        .skills {
-            display: flex;
-            width: 100%;
-            justify-content: space-around;
-            flex-wrap: wrap;
-            margin-top: 30px;
-        }
+  height: 100%;
+  background-color: $bgSecondColor;
+  color: $primaryColor;
+  position: relative;
+  z-index: 1;
+  font-family: $textFontFamily;
+
+  .skillsContainer {
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    .skills {
+      display: flex;
+      width: 100%;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-top: 30px;
     }
+  }
 }
