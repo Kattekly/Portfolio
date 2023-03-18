@@ -1,6 +1,5 @@
 import React from 'react';
 import s from './Footer.module.scss'
-import styleContainer from "../Common/Styles/Container.module.css";
 import Title from "../Common/Components/Title/Title";
 import vk from "../Assets/Images/vk2.png"
 import telegram from "../Assets/Images/telegram2.png"
