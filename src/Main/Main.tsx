@@ -3,9 +3,6 @@ import s from './Main.module.scss'
 import {Fade} from "react-awesome-reveal";
 import ReactTypingEffect from "react-typing-effect";
 import {Particle} from "./Particle";
-import Tilt from 'react-parallax-tilt';
-import mainPhoto from "../Assets/Images/foto2.jpg"
-import styleContainer from './../Common/Styles/Container.module.css'
 
 export const Main = () => {
     return (
@@ -20,9 +17,8 @@ export const Main = () => {
                     </Fade>
                 </div>
                 <div className={s.photo}>
-                        <div className={s.image}></div>
+                    <div className={s.image}></div>
                 </div>
-
             </div>
         </div>
     );
