@@ -7,7 +7,25 @@ import axios from "axios";
 import {Button} from "../Common/Components/Button/Button";
 import input = Simulate.input;
 import {Simulate} from "react-dom/test-utils";
+import {ContactForm} from "./ContactForm";
 
+
+
+export const Contact: React.FC = () => {
+    return (
+        <div id={'contactForm'} className={s.contactsBlock}>
+            <div className={`${styleContainer.container} ${s.contactsContainer}`}>
+                <Title title={"contacts"}/>
+                <div className={s.formBlock}>
+                <ContactForm/>
+                </div>
+            </div>
+        </div>
+    )
+}
+
+
+/*
 type FormikErrorType = {
     name?: string
     email?: string
@@ -109,4 +127,4 @@ export const ContactForm = () => {
             </div>
         </div>
     )
-}
+}*/

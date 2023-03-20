@@ -5,9 +5,9 @@ import {Projects} from "./Projects/Projects";
 import {DistantWork} from "./DistantWork/DistantWork";
 import Footer from "./Footer/Footer";
 import {Skills} from "./Skills/Skills";
-import {ContactForm} from "./Contacts/Contacts";
 import {Main} from "./Main/Main";
 import {ScrollButton} from "./Common/Components/ScrollButton/ScrollButton";
+import {Contact} from "./Contacts/Contacts";
 
 function App() {
     return (
@@ -17,7 +17,7 @@ function App() {
             <Skills/>
             <Projects/>
             <DistantWork/>
-            <ContactForm/>
+            <Contact/>
             <Footer/>
             <ScrollButton/>
         </div>
