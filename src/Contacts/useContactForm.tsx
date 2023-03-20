@@ -36,13 +36,6 @@ export const useContactForm = () => {
                 email: values.email,
                 message: values.message
             }, EMAIL_SERVICE.publicKey)
-
-            // emailjs.sendForm (
-            //     'service_kgp7wrt',
-            //     'template_dqqwa6z',
-            //     e.target,
-            //     'Vp4xGqOKvyZtiva7C',
-            // )
                 .then((res) => {
                     setSnackbarMessage('Your message has been sent successfully')
                     setSnackbarType('success')
