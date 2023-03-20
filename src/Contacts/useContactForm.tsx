@@ -1,6 +1,7 @@
 import {useState} from "react";
 import {useFormik} from "formik";
 import emailjs from '@emailjs/browser';
+import {validationSchema} from "../Common/utils/formValidators";
 
 export interface Values {
     name: string;
@@ -10,8 +11,8 @@ export interface Values {
 
 export const EMAIL_SERVICE = {
     serviceID: 'service_kgp7wrt',
-    templateID: 'template_dqqwa6z',
-    publicKey: 'Vp4xGqOKvyZtiva7C'
+    templateID: 'template_fyd0dfa',
+    publicKey: 'VcoRUxDY1AJ2EHnyM'
 }
 
 
@@ -27,7 +28,7 @@ export const useContactForm = () => {
             email: '',
             message: ''
         },
-
+        validationSchema: validationSchema,
         onSubmit: (values, actions) => {
             setOnDisabled(true)
             emailjs.send(EMAIL_SERVICE.serviceID, EMAIL_SERVICE.templateID, {
@@ -35,6 +36,13 @@ export const useContactForm = () => {
                 email: values.email,
                 message: values.message
             }, EMAIL_SERVICE.publicKey)
+
+            // emailjs.sendForm (
+            //     'service_kgp7wrt',
+            //     'template_dqqwa6z',
+            //     e.target,
+            //     'Vp4xGqOKvyZtiva7C',
+            // )
                 .then((res) => {
                     setSnackbarMessage('Your message has been sent successfully')
                     setSnackbarType('success')
