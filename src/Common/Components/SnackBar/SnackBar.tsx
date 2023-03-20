@@ -1,7 +1,6 @@
 import Alert from "@mui/material/Alert/Alert";
 import Snackbar from "@mui/material/Snackbar/Snackbar";
 import {FC, memo, SyntheticEvent, useEffect, useState} from "react";
-import s from '../../../Contacts/Contacts.module.scss'
 
 type SnackBarPropsType = {
     type: 'success' | 'info' | 'warning' | 'error'
