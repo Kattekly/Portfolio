@@ -17,7 +17,7 @@ export const EMAIL_SERVICE = {
 
 export const useContactForm = () => {
     const [snackbarMessage, setSnackbarMessage] = useState<string>('')
-    const [snackbarShow, setSnackbarShow] = useState<boolean>(true)
+    const [snackbarShow, setSnackbarShow] = useState<boolean>(false)
     const [snackbarType, setSnackbarType] = useState<'success' | 'error'>('success')
     const [onDisabled, setOnDisabled] = useState<boolean>(false)
 
