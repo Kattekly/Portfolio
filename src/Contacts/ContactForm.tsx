@@ -42,7 +42,6 @@ export const ContactForm: FC = () => {
                 <Button title='Send' type='submit' disable={onDisabled}/>
             </form>
             <SnackBar type={snackbarType} message={snackbarMessage} show={snackbarShow}/>
-            {/*<SnackBar show={snackbarShow} type={snackbarType} message={snackbarMessage}/>*/}
         </>
     )
 }
