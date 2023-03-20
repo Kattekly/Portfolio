@@ -1,6 +1,7 @@
 import React from 'react';
 import s from './Modal.module.scss'
-import {SuccessAnimation} from "./SuccessAnimation/SuccessAnimation";
+import {SuccessAnimation} from "./SuccessAnimation";
+
 
 type Props = {
     handleClose: () => void
