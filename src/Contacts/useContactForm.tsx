@@ -15,10 +15,9 @@ export const EMAIL_SERVICE = {
     publicKey: 'VcoRUxDY1AJ2EHnyM'
 }
 
-
 export const useContactForm = () => {
     const [snackbarMessage, setSnackbarMessage] = useState<string>('')
-    const [snackbarShow, setSnackbarShow] = useState<boolean>(false)
+    const [snackbarShow, setSnackbarShow] = useState<boolean>(true)
     const [snackbarType, setSnackbarType] = useState<'success' | 'error'>('success')
     const [onDisabled, setOnDisabled] = useState<boolean>(false)
 

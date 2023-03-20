@@ -1,6 +1,6 @@
 import * as yup from "yup";
 
-const MIN_MESSAGE_LENGTH = 15
+const MIN_MESSAGE_LENGTH = 10
 
 export const validationSchema = yup.object({
     name: yup
