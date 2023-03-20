@@ -1,5 +1,4 @@
 import {Button} from "../Common/Components/Button/Button";
-import {EMAIL_SERVICE, useContactForm, Values} from "./useContactForm";
 import {Input} from "../Common/Components/Input/Input";
 import {FC, useState} from "react";
 import s from './Contacts.module.scss'
@@ -9,10 +8,24 @@ import {useFormik} from "formik";
 import {validationSchema} from "../Common/utils/formValidators";
 import emailjs from "@emailjs/browser";
 
+export interface Values {
+    name: string;
+    email: string;
+    message: string;
+}
+
+export const EMAIL_SERVICE = {
+    serviceID: 'service_kgp7wrt',
+    templateID: 'template_fyd0dfa',
+    publicKey: 'VcoRUxDY1AJ2EHnyM'
+}
 
 export const ContactForm: FC = () => {
     const [onDisabled, setOnDisabled] = useState<boolean>(false)
     const [isOpenModal, setIsOpenModal] = useState(false)
+    const [snackbarMessage, setSnackbarMessage] = useState<string>('')
+    const [snackbarShow, setSnackbarShow] = useState<boolean>(false)
+    const [snackbarType, setSnackbarType] = useState<'info' | 'error'>('info')
 
     const formik = useFormik<Values>({
         initialValues: {
@@ -33,7 +46,9 @@ export const ContactForm: FC = () => {
                     actions.resetForm()
                 })
                 .catch((e) => {
-
+                    setSnackbarShow(true)
+                    setSnackbarMessage('Something went wrong. Your message could not be sent')
+                    setSnackbarType('error')
                 })
                 .finally(() => {
                     setOnDisabled(false)
@@ -84,7 +99,7 @@ export const ContactForm: FC = () => {
                 />
                 <Button title='Send' type='submit' disable={onDisabled}/>
             </form>
-            {/*<SnackBar type={snackbarType} message={snackbarMessage} show={snackbarShow}/>*/}
+            <SnackBar type={snackbarType} message={snackbarMessage} show={snackbarShow}/>
         </>
     )
 }
