@@ -1,12 +1,15 @@
 import {Button} from "../Common/Components/Button/Button";
 import {useContactForm} from "./useContactForm";
 import {Input} from "../Common/Components/Input/Input";
-import {FC} from "react";
+import {FC, useState} from "react";
 import s from './Contacts.module.scss'
 import {SnackBar} from "../Common/Components/SnackBar/SnackBar";
+import {Modal} from "../Common/Components/Modal/Modal";
+
 
 export const ContactForm: FC = () => {
     const {formik, onDisabled, snackbarShow, snackbarType, snackbarMessage} = useContactForm()
+
     return (
         <>
             <form  className={s.form} onSubmit={formik.handleSubmit}>

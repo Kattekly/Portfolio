@@ -2,6 +2,7 @@ import {useState} from "react";
 import {useFormik} from "formik";
 import emailjs from '@emailjs/browser';
 import {validationSchema} from "../Common/utils/formValidators";
+import {Modal} from "../Common/Components/Modal/Modal";
 
 export interface Values {
     name: string;
@@ -41,6 +42,7 @@ export const useContactForm = () => {
                     actions.resetForm()
                 })
                 .catch((e) => {
+
                     setSnackbarMessage('Something went wrong. Your message could not be sent')
                     setSnackbarType('error')
                 })
