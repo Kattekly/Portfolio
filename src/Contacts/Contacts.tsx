@@ -1,14 +1,8 @@
-import React, {useState} from 'react';
+import React from 'react';
 import s from './Contacts.module.scss'
 import styleContainer from "../Common/Styles/Container.module.css";
 import Title from "../Common/Components/Title/Title";
-import {useFormik} from "formik";
-import axios from "axios";
-import {Button} from "../Common/Components/Button/Button";
-import input = Simulate.input;
-import {Simulate} from "react-dom/test-utils";
 import {ContactForm} from "./ContactForm";
-
 
 
 export const Contact: React.FC = () => {
