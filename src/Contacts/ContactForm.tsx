@@ -12,7 +12,7 @@ import emailjs from "@emailjs/browser";
 
 export const ContactForm: FC = () => {
     const [onDisabled, setOnDisabled] = useState<boolean>(false)
-    const [isOpenModal, setIsOpenModal] = useState(true)
+    const [isOpenModal, setIsOpenModal] = useState(false)
 
     const formik = useFormik<Values>({
         initialValues: {
@@ -38,6 +38,9 @@ export const ContactForm: FC = () => {
                 .finally(() => {
                     setOnDisabled(false)
                     document.body.style.overflow = 'unset';
+                    setTimeout(() => {
+                        setIsOpenModal(false)
+                    }, 5000)
                 })
         },
     })

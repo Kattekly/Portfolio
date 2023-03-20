@@ -8,6 +8,7 @@ type Props = {
 }
 
 export const Modal = ({handleClose}: Props) => {
+
     return (
         <section className={s.modal}>
             <div className={s.flex}>
