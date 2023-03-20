@@ -18,7 +18,7 @@ export const EMAIL_SERVICE = {
 export const useContactForm = () => {
     const [snackbarMessage, setSnackbarMessage] = useState<string>('')
     const [snackbarShow, setSnackbarShow] = useState<boolean>(false)
-    const [snackbarType, setSnackbarType] = useState<'success' | 'error'>('success')
+    const [snackbarType, setSnackbarType] = useState<'info' | 'error'>('info')
     const [onDisabled, setOnDisabled] = useState<boolean>(false)
 
     const formik = useFormik<Values>({
@@ -37,7 +37,7 @@ export const useContactForm = () => {
             }, EMAIL_SERVICE.publicKey)
                 .then((res) => {
                     setSnackbarMessage('Your message has been sent successfully')
-                    setSnackbarType('success')
+                    setSnackbarType('info')
                     actions.resetForm()
                 })
                 .catch((e) => {
