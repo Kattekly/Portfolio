@@ -4,28 +4,6 @@
   height: 100%;
   background-color: $bgColor;
   color: $primaryColor;
-  position: relative;
-  z-index: 1;
-
-  .projectsContainer {
-    flex-direction: column;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-
-    .projects {
-      display: flex;
-      width: 100%;
-      flex-wrap: wrap;
-      justify-content: space-around;
-      margin-bottom: 20px;
-    }
-  }
-}
-/*
-.projectsBlock {
-  height: 100%;
-  background-color: $bgColor;
-  color: $primaryColor;
   font-family: $titleFontFamily;
   position: relative;
   z-index: 1;
@@ -43,4 +21,4 @@
       margin-top: 30px;
     }
   }
-}*/
+}
