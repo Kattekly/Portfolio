@@ -1,15 +1,20 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.c47039a6.css",
-    "main.js": "/Portfolio/static/js/main.22853d63.js",
+    "main.css": "/Portfolio/static/css/main.017d0d2a.css",
+    "main.js": "/Portfolio/static/js/main.396df008.js",
     "static/js/787.28cb0dcd.chunk.js": "/Portfolio/static/js/787.28cb0dcd.chunk.js",
+    "static/media/Todo.jpg": "/Portfolio/static/media/Todo.13a2c4e71dc7972b1714.jpg",
+    "static/media/foto2.jpg": "/Portfolio/static/media/foto2.c8d63d067bbb5a717777.jpg",
+    "static/media/KozachenkoEkFrontend.pdf": "/Portfolio/static/media/KozachenkoEkFrontend.99f05a18b5aab520537d.pdf",
+    "static/media/Cards.jpg": "/Portfolio/static/media/Cards.a70becf8aa29b082eb37.jpg",
+    "static/media/Social.jpg": "/Portfolio/static/media/Social.7a39cdc52524331eaafe.jpg",
     "index.html": "/Portfolio/index.html",
-    "main.c47039a6.css.map": "/Portfolio/static/css/main.c47039a6.css.map",
-    "main.22853d63.js.map": "/Portfolio/static/js/main.22853d63.js.map",
+    "main.017d0d2a.css.map": "/Portfolio/static/css/main.017d0d2a.css.map",
+    "main.396df008.js.map": "/Portfolio/static/js/main.396df008.js.map",
     "787.28cb0dcd.chunk.js.map": "/Portfolio/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c47039a6.css",
-    "static/js/main.22853d63.js"
+    "static/css/main.017d0d2a.css",
+    "static/js/main.396df008.js"
   ]
 }
