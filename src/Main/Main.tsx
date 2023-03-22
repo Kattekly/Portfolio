@@ -4,6 +4,8 @@ import {Fade} from "react-awesome-reveal";
 import ReactTypingEffect from "react-typing-effect";
 import {Particle} from "./Particle";
 import {Button} from "../Common/Components/Button/Button";
+// @ts-ignore
+import CV from "../Common/Docs/KozachenkoEkFrontend.pdf"
 
 export const Main = () => {
     return (
@@ -17,7 +19,9 @@ export const Main = () => {
                         <ReactTypingEffect text={'I AM FRONTEND DEVELOPER'}/>
                     </Fade>
                     <div className={s.button}>
+                        <a href={CV} target={"_blank"} >
                         <Button title={'Download CV'}/>
+                        </a>
                     </div>
 
                 </div>
