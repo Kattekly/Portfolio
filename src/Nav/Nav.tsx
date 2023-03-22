@@ -1,6 +1,7 @@
 import React from 'react';
 import s from './Nav.module.scss'
 import {Link} from "react-scroll";
+import {Button} from "../Common/Components/Button/Button";
 
 export const Nav = () => {
     return (
