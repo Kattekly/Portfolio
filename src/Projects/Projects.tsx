@@ -74,30 +74,3 @@ export const Projects = () => {
         </div>
     )
 }
-/*
-export const Projects = () => {
-    return (
-        <div id={'projects'} className={s.projectsBlock}>
-            <div className={`${styleContainer.container} ${s.projectsContainer}`}>
-                <Title title={"projects"}/>
-
-                <div className={s.projects}>
-                    <AliceCarousel
-                        controlsStrategy={"responsive"}
-                        responsive={responsive}
-                        mouseTracking={true}
-                    >
-                    {works.map(el => {
-                        return <Project key={el.title}
-                                        title={el.title}
-                                        description={el.description}
-                                        img={el.img}
-                                        siteLink={el.siteLink}
-                                        codeLink={el.codeLink}/>
-                    })}
-                    </AliceCarousel>
-                </div>
-            </div>
-        </div>
-    )
-}*/
