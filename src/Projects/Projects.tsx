@@ -9,12 +9,12 @@ import cardsImage from './../Assets/Images/Cards.jpg'
 import AliceCarousel from "react-alice-carousel";
 import "../Common/Styles/carousel.css";
 import "react-alice-carousel/lib/scss/alice-carousel.scss";
-import counterImage from './../Assets/Images/2023-03-15_19-37-39.png'
+import counterImage from './../Assets/Images/2023-03-22_14-32-44.png'
 
 const responsive = {
-    0: { items: 1 },
-    568: { items: 2 },
-    1024: { items: 3 },
+    0: {items: 1},
+    568: {items: 2},
+    1024: {items: 3},
 };
 
 const works = [
@@ -41,10 +41,10 @@ const works = [
     },
     {
         title: "Counter",
-        description: "Technology stack: react, redux, react-redux, redux-thunk, react-router-dom, typescript",
+        description: "Technology stack: react, redux, react-redux, react-router-dom, typescript",
         img: counterImage,
-        siteLink: '',
-        codeLink: ''
+        siteLink: 'https://github.com/Kattekly/Cards',
+        codeLink: 'https://github.com/Kattekly/Cards'
     },
 ]
 
@@ -58,6 +58,7 @@ export const Projects = () => {
                         controlsStrategy={"responsive"}
                         responsive={responsive}
                         mouseTracking={true}
+                        infinite={true}
                     >
                         {works.map(el => {
                             return <Project key={el.title}
