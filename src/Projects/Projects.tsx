@@ -6,8 +6,16 @@ import Title from '../Common/Components/Title/Title';
 import todoImage from './../Assets/Images/Todo.jpg'
 import socialImage from './../Assets/Images/Social.jpg'
 import cardsImage from './../Assets/Images/Cards.jpg'
+import AliceCarousel from "react-alice-carousel";
+import "../Common/Styles/carousel.css";
+import "react-alice-carousel/lib/scss/alice-carousel.scss";
 import counterImage from './../Assets/Images/2023-03-15_19-37-39.png'
 
+const responsive = {
+    0: { items: 1 },
+    568: { items: 2 },
+    1024: { items: 3 },
+};
 
 const works = [
     {
@@ -31,13 +39,13 @@ const works = [
         siteLink: 'https://Kattekly.github.io/Cards',
         codeLink: 'https://github.com/Kattekly/Cards'
     },
-   /* {
+    {
         title: "Counter",
         description: "Technology stack: react, redux, react-redux, redux-thunk, react-router-dom, typescript",
         img: counterImage,
         siteLink: '',
         codeLink: ''
-    },*/
+    },
 ]
 
 export const Projects = () => {
@@ -46,6 +54,38 @@ export const Projects = () => {
             <div className={`${styleContainer.container} ${s.projectsContainer}`}>
                 <Title title={"projects"}/>
                 <div className={s.projects}>
+                    <AliceCarousel
+                        controlsStrategy={"responsive"}
+                        responsive={responsive}
+                        mouseTracking={true}
+                    >
+                        {works.map(el => {
+                            return <Project key={el.title}
+                                            title={el.title}
+                                            description={el.description}
+                                            img={el.img}
+                                            siteLink={el.siteLink}
+                                            codeLink={el.codeLink}/>
+                        })}
+                    </AliceCarousel>
+                </div>
+            </div>
+        </div>
+    )
+}
+/*
+export const Projects = () => {
+    return (
+        <div id={'projects'} className={s.projectsBlock}>
+            <div className={`${styleContainer.container} ${s.projectsContainer}`}>
+                <Title title={"projects"}/>
+
+                <div className={s.projects}>
+                    <AliceCarousel
+                        controlsStrategy={"responsive"}
+                        responsive={responsive}
+                        mouseTracking={true}
+                    >
                     {works.map(el => {
                         return <Project key={el.title}
                                         title={el.title}
@@ -54,8 +94,9 @@ export const Projects = () => {
                                         siteLink={el.siteLink}
                                         codeLink={el.codeLink}/>
                     })}
+                    </AliceCarousel>
                 </div>
             </div>
         </div>
     )
-}
+}*/

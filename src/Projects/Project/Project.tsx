@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './Project.module.scss'
+import c from './Project.module.scss'
 import {Button} from "../../Common/Components/Button/Button";
 
 type WorkPropsType = {
@@ -10,32 +10,62 @@ type WorkPropsType = {
     codeLink: string
 }
 
+// export const Project = ({title, description, img, siteLink, codeLink}: WorkPropsType) => {
+//     const backgroundImage = {
+//         backgroundImage: `url(${img})`
+//     }
+//     return (
+//         <>
+//             <div className={s.project}>
+//                 <div className={s.projectImage} style={backgroundImage}>
+//                     <Button title={'Site'} onClick={() => {
+//                         window.location.href = `${siteLink}`
+//                     }}>
+//                         projects
+//                     </Button>
+//                     <Button title={'Code'} onClick={() => {
+//                         window.location.href = `${codeLink}`
+//                     }}>
+//                         projects
+//                     </Button>
+//                 </div>
+//                 <div className={s.textBlock}>
+//                     <h3>{title}</h3>
+//                     <div className={s.description}>
+//                         {description}
+//                     </div>
+//                 </div>
+//             </div>
+//         </>
+//     )
+// }
+
 export const Project = ({title, description, img, siteLink, codeLink}: WorkPropsType) => {
     const backgroundImage = {
         backgroundImage: `url(${img})`
     }
     return (
-        <>
-            <div className={s.project}>
-                <div className={s.projectImage} style={backgroundImage}>
-                    <Button title={'Site'} onClick={() => {
-                        window.location.href = `${siteLink}`
+        <div>
+            <div className={c.project}>
+                <div className={c.projectImage} style={backgroundImage}>
+                    {siteLink !== '' && <Button title={'Site'} onClick={() => {
+                        window.open(siteLink)
                     }}>
                         projects
-                    </Button>
-                    <Button title={'Code'} onClick={() => {
-                        window.location.href = `${codeLink}`
+                    </Button>}
+                    {codeLink !== '' && <Button title={'Code'} onClick={() => {
+                        window.open(codeLink)
                     }}>
                         projects
-                    </Button>
+                    </Button>}
                 </div>
-                <div className={s.textBlock}>
+                <div className={c.textBlock}>
                     <h3>{title}</h3>
-                    <div className={s.description}>
+                    <div className={c.description}>
                         {description}
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
