@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.017d0d2a.css",
-    "main.js": "/Portfolio/static/js/main.396df008.js",
+    "main.css": "/Portfolio/static/css/main.4587358a.css",
+    "main.js": "/Portfolio/static/js/main.52e4b21f.js",
     "static/js/787.28cb0dcd.chunk.js": "/Portfolio/static/js/787.28cb0dcd.chunk.js",
     "static/media/Todo.jpg": "/Portfolio/static/media/Todo.13a2c4e71dc7972b1714.jpg",
     "static/media/foto2.jpg": "/Portfolio/static/media/foto2.c8d63d067bbb5a717777.jpg",
     "static/media/KozachenkoEkFrontend.pdf": "/Portfolio/static/media/KozachenkoEkFrontend.99f05a18b5aab520537d.pdf",
+    "static/media/2023-03-22_14-32-44.png": "/Portfolio/static/media/2023-03-22_14-32-44.7cf6500959e2c6c035f7.png",
     "static/media/Cards.jpg": "/Portfolio/static/media/Cards.a70becf8aa29b082eb37.jpg",
     "static/media/Social.jpg": "/Portfolio/static/media/Social.7a39cdc52524331eaafe.jpg",
     "index.html": "/Portfolio/index.html",
-    "main.017d0d2a.css.map": "/Portfolio/static/css/main.017d0d2a.css.map",
-    "main.396df008.js.map": "/Portfolio/static/js/main.396df008.js.map",
+    "main.4587358a.css.map": "/Portfolio/static/css/main.4587358a.css.map",
+    "main.52e4b21f.js.map": "/Portfolio/static/js/main.52e4b21f.js.map",
     "787.28cb0dcd.chunk.js.map": "/Portfolio/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.017d0d2a.css",
-    "static/js/main.396df008.js"
+    "static/css/main.4587358a.css",
+    "static/js/main.52e4b21f.js"
   ]
 }
