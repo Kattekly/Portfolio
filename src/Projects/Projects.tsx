@@ -43,8 +43,8 @@ const works = [
         title: "Counter",
         description: "Technology stack: react, redux, react-redux, react-router-dom, typescript",
         img: counterImage,
-        siteLink: 'https://github.com/Kattekly/Cards',
-        codeLink: 'https://github.com/Kattekly/Cards'
+        siteLink: 'https://Kattekly.github.io/Counter',
+        codeLink: 'https://github.com/Kattekly/Counter'
     },
 ]
 
