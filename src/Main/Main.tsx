@@ -20,11 +20,11 @@ export const Main = () => {
                     </Fade>
                     <div className={s.button}>
                         <a href={CV} target={"_blank"} >
-                        <Button title={'Download CV'}/>
+                            <Button title={'Download CV'}>default</Button>
                         </a>
                     </div>
-
                 </div>
+
                 <div className={s.photo}>
                     <div className={s.image}></div>
                 </div>
